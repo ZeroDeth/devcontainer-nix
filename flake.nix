@@ -22,7 +22,7 @@
           direnv # load environment variables
           # cmake # C tooling.
           d2 # Text-based diagramming tool.
-          delve # Go debugger.
+          # delve # Go debugger.
           docker # Container tooling.
           entr # Execute command when files change.
           fd # Find that respects .gitignore.
@@ -32,9 +32,9 @@
           git # Source code management tool.
           gitAndTools.gh # Github CLI.
           gnupg # Tool for handling PGP encrypt/decrypt.
-          go # Programming language.
-          gopls # LSP for Go.
-          gotools # Additional Go tooling.
+          # go # Programming language.
+          # gopls # LSP for Go.
+          # gotools # Additional Go tooling.
           # gradle # Build tool.
           # graphviz # Build SVGs of graphs (maths graphs).
           # htop # Fancy version of top.
@@ -52,8 +52,8 @@
           # ninja # Used by Raspberry Pi Pico SDK, build tool.
           # nmap # Port scanner.
           nodejs-18_x # Node LTS version.
-          podman # Docker alternative.
-          podman-compose # Alternative to docker-compose.
+          # podman # Docker alternative.
+          # podman-compose # Alternative to docker-compose.
           powerline # Status line UI fancy.
           # python310Packages.python-lsp-server
           # python311 # Python 3.11.
@@ -62,21 +62,21 @@
           # rust-analyzer # Rust language server.
           # rustc # Rust compiler.
           # rustfmt # Rust formatter.
-          shadow # Required to run podman containers in podman.
+          # shadow # Required to run podman containers in podman.
           silver-searcher # Fast grep (ag).
           # sumneko-lua-language-server # LSP for Lua.
-          # terraform # Infrastructure management language.
+          terraform # Infrastructure management language.
           # terraform-ls # Terraform Language Server.
           # tflint # Terraform linting tool.
-          tmux # Terminal multiplexer.
+          # tmux # Terminal multiplexer.
           tree # Tree of file systems.
-          tunctl # Utility for controlling tuntap interfaces. Required to start podman containers with open ports.
-          unzip # Unzip files.
-          urlscan # Find URLs in your terminal
-          wget # curl, but it follows links automatically etc.
+          # tunctl # Utility for controlling tuntap interfaces. Required to start podman containers with open ports.
+          # unzip # Unzip files.
+          # urlscan # Find URLs in your terminal
+          # wget # curl, but it follows links automatically etc.
           xc.packages."x86_64-linux".xc # Task manager.
           yarn # Alternative to NPM for JavaScript.
-          zip # Zip files.
+          # zip # Zip files.
         ];
       };
   };
