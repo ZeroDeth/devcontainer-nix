@@ -13,13 +13,13 @@
       in pkgs.buildEnv {
         name = "packages";
         paths = with pkgs; [
-          astyle # Code formatter for C.
-          azure-cli # Azure CLI.
-          azure-storage-azcopy # Azure CLI copy tool.
+          # astyle # Code formatter for C.
+          # azure-cli # Azure CLI.
+          # azure-storage-azcopy # Azure CLI copy tool.
           bat # Colourized cat.
-          cargo # Rust tooling.
-          ccls # C LSP Server.
-          cmake # C tooling.
+          # cargo # Rust tooling.
+          # ccls # C LSP Server.
+          # cmake # C tooling.
           d2 # Text-based diagramming tool.
           delve # Go debugger.
           docker # Container tooling.
@@ -34,39 +34,39 @@
           go # Programming language.
           gopls # LSP for Go.
           gotools # Additional Go tooling.
-          gradle # Build tool.
-          graphviz # Build SVGs of graphs (maths graphs).
-          htop # Fancy version of top.
-          imagemagick # Image processing.
-          jdk # Development.
+          # gradle # Build tool.
+          # graphviz # Build SVGs of graphs (maths graphs).
+          # htop # Fancy version of top.
+          # imagemagick # Image processing.
+          # jdk # Development.
           jq # JSON query at the CLI.
-          jre # Runtime.
+          # jre # Runtime.
           kubectl # Kubernetes management tool.
           kubernetes-helm # Manage Kubernetes deployments.
-          llvm # Used by Raspberry Pi Pico SDK.
-          lua5_4 # Scripting language.
-          maven # Java build tooling.
-          minicom # Serial monitor.
+          # llvm # Used by Raspberry Pi Pico SDK.
+          # lua5_4 # Scripting language.
+          # maven # Java build tooling.
+          # minicom # Serial monitor.
           neovim # Better version of Vim.
-          ninja # Used by Raspberry Pi Pico SDK, build tool.
-          nmap # Port scanner.
+          # ninja # Used by Raspberry Pi Pico SDK, build tool.
+          # nmap # Port scanner.
           nodejs-18_x # Node LTS version.
           podman # Docker alternative.
           podman-compose # Alternative to docker-compose.
           powerline # Status line UI fancy.
-          python310Packages.python-lsp-server
-          python311 # Python 3.11.
+          # python310Packages.python-lsp-server
+          # python311 # Python 3.11.
           ranger # File manager.
           ripgrep # Fast grep.
-          rust-analyzer # Rust language server.
-          rustc # Rust compiler.
-          rustfmt # Rust formatter.
+          # rust-analyzer # Rust language server.
+          # rustc # Rust compiler.
+          # rustfmt # Rust formatter.
           shadow # Required to run podman containers in podman.
           silver-searcher # Fast grep (ag).
-          sumneko-lua-language-server # LSP for Lua.
-          terraform # Infrastructure management language.
-          terraform-ls # Terraform Language Server.
-          tflint # Terraform linting tool.
+          # sumneko-lua-language-server # LSP for Lua.
+          # terraform # Infrastructure management language.
+          # terraform-ls # Terraform Language Server.
+          # tflint # Terraform linting tool.
           tmux # Terminal multiplexer.
           tree # Tree of file systems.
           tunctl # Utility for controlling tuntap interfaces. Required to start podman containers with open ports.
