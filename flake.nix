@@ -19,10 +19,10 @@
           bat # Colourized cat.
           # cargo # Rust tooling.
           # ccls # C LSP Server.
-          direnv # load environment variables
           # cmake # C tooling.
           d2 # Text-based diagramming tool.
           # delve # Go debugger.
+          direnv # load environment variables
           docker # Container tooling.
           entr # Execute command when files change.
           fd # Find that respects .gitignore.
