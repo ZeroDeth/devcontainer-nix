@@ -19,6 +19,7 @@
           bat # Colourized cat.
           # cargo # Rust tooling.
           # ccls # C LSP Server.
+          direnv # load environment variables
           # cmake # C tooling.
           d2 # Text-based diagramming tool.
           delve # Go debugger.
