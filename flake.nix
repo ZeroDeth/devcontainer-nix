@@ -73,7 +73,7 @@
           # tunctl # Utility for controlling tuntap interfaces. Required to start podman containers with open ports.
           # unzip # Unzip files.
           # urlscan # Find URLs in your terminal
-          # wget # curl, but it follows links automatically etc.
+          wget # curl, but it follows links automatically etc.
           xc.packages."x86_64-linux".xc # Task manager.
           yarn # Alternative to NPM for JavaScript.
           # zip # Zip files.
