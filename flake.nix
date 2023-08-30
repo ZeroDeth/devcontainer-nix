@@ -44,6 +44,7 @@
           # jre # Runtime.
           kubectl # Kubernetes management tool.
           kubernetes-helm # Manage Kubernetes deployments.
+          kubebuilder # Kubernetes builder.
           # llvm # Used by Raspberry Pi Pico SDK.
           # lua5_4 # Scripting language.
           # maven # Java build tooling.
